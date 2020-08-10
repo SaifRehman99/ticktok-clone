@@ -1,0 +1,15 @@
+.video {
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.video__player {
+  /* this will fill the video in the container */
+  object-fit: fill;
+
+  /* this will adjust the height and width */
+  width: 100%;
+  height: 100%;
+}
